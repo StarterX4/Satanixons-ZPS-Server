@@ -8,5 +8,20 @@
 
 "Commands"
 {
+    "PlayerCommands"
+    {
+        "Respawn Player"
+        {
+            "cmd"        "sm_respawn #1"
+            "admin"        "sm_kick"
+            "execute"    "player"
+            "1"
+            {
+                "type"        "player"
+                "method"    "name"
+                "title"        "Player:"
+            }
+        }
+    }
 
 }
